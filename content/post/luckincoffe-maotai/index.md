@@ -1,7 +1,7 @@
 ---
 title: 酱香拿铁？真的可以拿捏年轻人吗？
 description: 
-date: 2023-09-05T01:12:14Z
+date: 2023-09-04T01:12:14Z
 image: https://cdn.jsdelivr.net/gh/Johnsmart/PokeAI/photos/20230904201736.png
 categories:
     - 
@@ -13,7 +13,6 @@ hidden: false
 comments: true
 draft: false
 ---
-
 
 # 为什么有这么多人转发瑞幸和茅台的酱香拿铁？
 针对瑞幸联名茅台推出的酱香拿铁，属实属于白酒兑咖啡。让人意外的联名配方，简直就是胡闹型营销，9.9就能让全民喝得起茅台了，谁说年轻人不喝白酒，要看你白酒里面兑什么。确实喝了酒精以后可以让人诗兴大发，朋友圈多了很多的“诗”。
