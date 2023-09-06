@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>教程 on laosji</title>
+        <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
+        <description>Recent content in 教程 on laosji</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Tue, 01 Aug 2023 02:27:36 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>永久免费的个人博客github page&#43;hugo，如何搭建？</title>
+        <link>http://localhost:1313/p/build-a-free-blog/</link>
+        <pubDate>Tue, 01 Aug 2023 02:27:36 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/build-a-free-blog/</guid>
+        <description>&lt;img src="http://localhost:1313/p/build-a-free-blog/blog.png" alt="Featured image of post 永久免费的个人博客github page&#43;hugo，如何搭建？" /&gt;&lt;p&gt;搭建个人博客最好的方案是什么？相信很多人肯定会毫不犹豫的说出“WordPress”,的确wordpress是一个不错的方案，安装简单，主题多插件丰富，而且带后台，很多VPS也都支持一键安装。但是缺点是不免费，不仅要买服务器，还要买域名。对很多心血来潮的朋友来说，在VPS上搭建好了wordpress博客之后，很久都不更新。渐渐的这个博客也就被遗忘了，服务器也不续费了，域名也过期了，自己曾经写过的东西一点也没留下，从此消失在了信息大爆炸的互联网中。但是如果使用免费的方案，就算你不更新，只要GitHub不关停，你的博客就会一直保留。折腾了这么多的程序之后，我自己的服务器上的内容全部已经丢失，就再也不想折腾了，何不用免费的呢？省心、省钱，哈哈哈···。下面是我折腾hugo Stack主题的具体操作，如果你也想拥有这样一个博客，就跟着下面的步骤来开始操作吧，真的非常简单，只要3分钟就能搭建完成。&lt;/p&gt;
+&lt;h3 id=&#34;第一步注册github账号&#34;&gt;第一步，注册GitHub账号&lt;/h3&gt;
+&lt;p&gt;打开![GitHub] (&lt;a class=&#34;link&#34; href=&#34;https://github.com/%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/)&lt;/a&gt;,如果你还没有账号的话，请注册一个。如果你已经拥有一个GitHub账号，请直接登录。&lt;/p&gt;
+&lt;h3 id=&#34;第二步新建仓库&#34;&gt;第二步，新建仓库&lt;/h3&gt;
+&lt;p&gt;我使用的是Stack主题，这个主题不仅简单美观，而且可以快速部署。打开这个项目&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo-theme-stack-starter&lt;/a&gt;,根据readme.md的说明，我们点击“use this template”的绿色按钮，选择“Crete a new repository”。如图：
+&lt;a class=&#34;link&#34; href=&#34;https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;use this template&lt;/a&gt;
+仓库可以命名为“username.github.io”,这样就可以直接访问这个地址来打开你的博客。&lt;/p&gt;
+&lt;h3 id=&#34;第三步创建代码空间可在线编辑代码&#34;&gt;第三步，创建代码空间，可在线编辑代码&lt;/h3&gt;
+&lt;p&gt;[创建代码空间]（https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png）&lt;/p&gt;
+&lt;h3 id=&#34;第四步预览你的网站&#34;&gt;第四步，预览你的网站&lt;/h3&gt;
+&lt;p&gt;在代码空间运行&amp;quot;hugo server&amp;quot;，开启Hugo 服务器，此时就可以在浏览器中预览你的网站啦。&lt;/p&gt;
+&lt;h3 id=&#34;第五步配置-hugo&#34;&gt;第五步，配置 Hugo&lt;/h3&gt;
+&lt;p&gt;打开 config.toml 文件，根据您的需求进行配置，例如设置网站标题、作者等信息。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;baseurl = &amp;#34;https://laosji.net&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;languageCode = &amp;#34;zh-cn&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;paginate = 5
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = &amp;#34;laosji.net&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DefaultContentLanguage = &amp;#34;zh-cn&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hasCJKLanguage = ture
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Change it to your Disqus shortname before using
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;disqusShortname = &amp;#34;laosji.net&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;修改头像&#34;&gt;修改头像：&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;替换themes/hugo-theme-stack/assets/img/avatar.png下的avatar.png即可&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;菜单编辑&#34;&gt;菜单编辑&lt;/h4&gt;
+&lt;p&gt;打开“menu.toml”文件, 修改自己的社交媒体账号链接即可&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[[social]] 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;identifier = &amp;#34;github&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;name = &amp;#34;GitHub&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = &amp;#34;https://github.com/koala9527&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[social.params]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;icon = &amp;#34;brand-github&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;到此你的博客已经搭建完成了，快去看看吧&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
